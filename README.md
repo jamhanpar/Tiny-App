@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Dependencies
 - npm install react-bootstrap bootstrap@4.6.0
+- npm install node-sass --save
 
 ### Run Instructions
 - npm install
