@@ -20,16 +20,18 @@ export default function Greeting(props) {
 
     return (
       <section className="widget">
-        <div className="info" label="Name">
-          {/* <input value={name} onChange={handleNameChange} /> */}
-          <input {...name} />
-        </div>
-        <div className="info" label="Surname">
-          {/* <input value={surname} onChange={handleSurnameChange} /> */}
-          <input {...surname} />
-        </div>
-        <div className="info" label="Width">
-          {`width: ${width}`}
+        <div className="info-card">
+            <div className="info" label="Name">
+            {/* <input value={name} onChange={handleNameChange} /> */}
+            <input {...name} />
+            </div>
+            <div className="info" label="Surname">
+            {/* <input value={surname} onChange={handleSurnameChange} /> */}
+            <input {...surname} />
+            </div>
+            <div className="info" label="Width">
+            {`width: ${width}`}
+            </div>
         </div>
       </section>
     );
