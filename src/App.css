@@ -4,8 +4,8 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-self: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .App-logo {
